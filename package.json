@@ -1,0 +1,25 @@
+{
+  "name": "typescriptconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/signalr": "^3.1.9",
+    "@types/node": "^14.11.8",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "nan": "^2.14.2",
+    "rxjs": "^6.6.3",
+    "webpack-cli": "^3.3.12"
+  }
+}
